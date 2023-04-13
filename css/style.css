@@ -1,0 +1,135 @@
+:root {
+  --font-primary: Roboto, sans-serif;
+  --color-main: #2e2f42;
+  --body-text: #434455;
+  --color-bg: #f4f4fd;
+  --color-button: #4d5ae5;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.1s linear;
+  font-family: var(--font-primary);
+  letter-spacing: 0.02em;
+}
+*img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  text-decoration: none;
+}
+body {
+  background-color: #fff;
+  color: var(--color-main);
+}
+/* HEADER */
+
+.header-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 1.17;
+}
+.header-logo span {
+  color: var(--color-button);
+}
+.navbar {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.navbar a:hover {
+  color: var(--color-button);
+  border-bottom: solid var(--color-button);
+}
+.header-contact-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--body-text);
+}
+.header-contact-item:focus,
+.header-contact-item:hover {
+  color: #404bbf;
+}
+
+/* HERO */
+.hero {
+  background-color: var(--color-main);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 0.017em;
+  color: #fff;
+}
+.hero-btn {
+  background-color: var(--color-button);
+  color: #fff;
+}
+.hero-btn:focus,
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+
+/* ABOUT */
+.about-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.about-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
+}
+/* SCOPE */
+.scope-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-transform: capitalize;
+}
+/* TEAM */
+.team {
+  background-color: var(--color-bg);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-transform: capitalize;
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--body-text);
+}
+/* FOOTER */
+.footer {
+  background-color: var(--color-main);
+  color: var(--color-bg);
+}
+.footer-logo span {
+  color: var(--color-button);
+}
