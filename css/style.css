@@ -1,5 +1,5 @@
 :root {
-  --font-primary: Roboto, sans-serif;
+  --font-primary: 'Roboto', sans-serif;
   --color-main: #2e2f42;
   --body-text: #434455;
   --color-bg: #f4f4fd;
@@ -35,15 +35,15 @@ body {
 /* HEADER */
 
 .header-logo {
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   letter-spacing: 0.03em;
   font-size: 18px;
   line-height: 1.17;
-}
-.header-logo span {
+  text-transform: uppercase;
   color: var(--color-button);
 }
+
 .navbar {
   font-weight: 500;
   font-size: 16px;
