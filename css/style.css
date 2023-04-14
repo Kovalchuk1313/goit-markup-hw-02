@@ -8,8 +8,6 @@
   --color-bg: #f4f4fd;
   --color-button: #4d5ae5;
 }
-* {
-}
 *img {
   max-width: 100%;
 }
@@ -165,11 +163,11 @@ body {
 .menu-btn {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-style: 16px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--color-bg);
-  background-color: var(--color-button);
+  color: var(--color-button);
+  background-color: var(--color-bg);
   cursor: pointer;
 }
 .menu-btn:hover,
@@ -179,4 +177,10 @@ body {
 }
 .menu-list .list {
   list-style: none;
+}
+.menu-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
 }
