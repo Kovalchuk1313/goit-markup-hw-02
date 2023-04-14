@@ -95,10 +95,15 @@ body {
 }
 
 /* ABOUT */
+.about-lisyt {
+  list-style: none;
+}
 .about-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-main);
 }
 .about-subtitle {
   font-weight: 400;
