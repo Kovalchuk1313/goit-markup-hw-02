@@ -1,5 +1,8 @@
 :root {
+  /* Fonts */
   --font-primary: 'Roboto', sans-serif;
+
+  /* Color */
   --color-main: #2e2f42;
   --body-text: #434455;
   --color-bg: #f4f4fd;
@@ -33,8 +36,12 @@ body {
 .link {
   text-decoration: none;
 }
-/* HEADER */
+link:focus,
+ink:hover {
+  color: #404bbf;
+}
 
+/* HEADER */
 .navbar-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -42,12 +49,11 @@ body {
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
-  color: var(--color-main);
-}
-.navbar-span {
   color: var(--color-button);
 }
-
+.navbar-span span {
+  color: var(--color-main);
+}
 .navbar-link {
   font-weight: 500;
   font-size: 16px;
@@ -56,8 +62,8 @@ body {
   color: var(--color-main);
 }
 .navbar-link:hover {
-  color: var(--color-button);
-  border-bottom: solid var(--color-button);
+  color: #404bbf;
+  border-bottom: solid #404bbf;
 }
 .contact {
   font-style: normal;
@@ -68,10 +74,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text);
-}
-.contact-item-link:focus,
-.contact-item-link:hover {
-  color: #404bbf;
 }
 
 /* HERO */
@@ -106,6 +108,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--body-text);
 }
+
 /* SCOPE */
 .scope-title {
   font-weight: 700;
