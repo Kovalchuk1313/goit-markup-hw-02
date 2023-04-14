@@ -30,7 +30,7 @@ li {
 }
 body {
   background-color: #fff;
-  color: var(--color-main);
+  color: var(--body-text);
 }
 /* HEADER */
 
