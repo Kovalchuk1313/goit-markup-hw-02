@@ -9,24 +9,12 @@
   --color-button: #4d5ae5;
 }
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  transition: 0.1s linear;
-  font-family: var(--font-primary);
 }
 *img {
   max-width: 100%;
 }
-a {
-  text-decoration: none;
-  color: inherit;
-}
-ul {
-  margin: 0;
-  padding: 0;
-}
 body {
+  font-family: var(--font-primary);
   background-color: #fff;
   color: var(--body-text);
 }
@@ -35,10 +23,6 @@ body {
 }
 .link {
   text-decoration: none;
-}
-link:focus,
-ink:hover {
-  color: #404bbf;
 }
 
 /* HEADER */
@@ -51,7 +35,7 @@ ink:hover {
   text-transform: uppercase;
   color: var(--color-button);
 }
-.navbar-span span {
+.navbar-span {
   color: var(--color-main);
 }
 .navbar-link {
@@ -74,6 +58,10 @@ ink:hover {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text);
+}
+.contact .link:focus,
+.contact .link:hover {
+  color: #404bbf;
 }
 
 /* HERO */
