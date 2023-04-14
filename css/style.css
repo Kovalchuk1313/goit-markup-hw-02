@@ -157,7 +157,26 @@ body {
   text-transform: uppercase;
   color: var(--color-button);
 }
-
 .footer-logo span {
   color: var(--color-bg);
+}
+
+/* portfolio */
+.menu-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-bg);
+  background-color: var(--color-button);
+  cursor: pointer;
+}
+.menu-btn:hover,
+.menu-btn:focus {
+  color: #fff;
+  background-color: #404bbf;
+}
+.menu-list .list {
+  list-style: none;
 }
