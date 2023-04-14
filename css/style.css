@@ -157,9 +157,7 @@ body {
   text-transform: uppercase;
   color: var(--color-button);
 }
-.footer .link {
-  text-decoration: none;
-}
+
 .footer-logo span {
   color: var(--color-bg);
 }
