@@ -45,8 +45,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-main);
 }
+.navbar-link:focus,
 .navbar-link:hover {
   color: #404bbf;
+}
+.navbar-link:hover {
   border-bottom: solid #404bbf;
 }
 .contact {
@@ -71,11 +74,19 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 0.017em;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: #fff;
 }
 .hero-btn {
+  font-family: 'Roboto', sans-serif;
   background-color: var(--color-button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   color: #fff;
 }
 .hero-btn:focus,
